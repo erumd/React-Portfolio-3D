@@ -4,7 +4,7 @@ This is my portfolio using react.
 
 ## Deployment
 
-https://evening-forest-88970.herokuapp.com/
+https://erum-react-portfolio.herokuapp.com/
 
 https://github.com/erumd/React-Portfolio-3D
 
