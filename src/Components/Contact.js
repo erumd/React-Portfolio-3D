@@ -39,11 +39,10 @@ class Contact extends Component {
               <Slide bottom duration={2000}>
                 <ul className="social">
                   <button>
-                    <a href={MyPDF} download="resume_File.pdf" target="_blank">
-                      Download Resume
+                    <a target="_blank" href={MyPDF} download="resume_File.pdf" >
                     </a>
-                    <i className="fa fa-download" />
-                  </button>
+                    <i className="fa fa-download" />  Download Resume
+                  </ button>
                   <br></br>
 
                   <a href={github} className="button btn github-btn">

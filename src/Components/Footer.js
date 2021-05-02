@@ -54,7 +54,7 @@ import React from 'react';
 export default function Footer ()  {
   return (
     <footer className="d-flex flex-column justify-content-center align-items-center text-light bg-dark">
-    <p className="lead my-3 bg-dark text-white">
+    <p className=" text-white">
       &copy; Made with <span>♥️</span> by{" "}
       <a
         id="myInfo"

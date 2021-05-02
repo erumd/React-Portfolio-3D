@@ -10,6 +10,8 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
+    
+
     return (
       <header id="home">
         <ParticlesBg type="square" bg={true} />
@@ -23,11 +25,11 @@ class Header extends Component {
           </a>
 
           <ul id="nav" className="nav">
-            <li className="current">
+            {/* <li className="current">
               <a className="smoothscroll" href="#home">
                 Home
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a className="smoothscroll" href="#about">
@@ -36,15 +38,18 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              
+              {/* <a href= "./Contact" target="_blank"> CONTACT</a> */}
+              <a className="smoothscroll" href="#resume" target="_blank">
                 Contact 
               </a>
             </li>
            
-
+            
             <li>
               <a className="smoothscroll" href="#portfolio">
                 Projects
+                {/* <Link to="route" target="_blank" rel="noopener noreferrer" /> */}
               </a>
             </li>
 
