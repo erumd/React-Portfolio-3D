@@ -8,9 +8,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 // import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
-// import {Routes, Route } from 'react-router-dom';
-import { BrowserRouter,  Switch, Route, Link } from "react-router-dom";
-import { Routes } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 class App extends Component {
@@ -49,23 +47,10 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <Contact data={this.state.resumeData.social} />
+        <Contact data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         {/* <Contact data={this.state.resumeData.main} /> */}
         <Footer data={this.state.resumeData.main} />
-
-        {/* <BrowserRouter> */}
-         
-              {/* <About data={this.state.resumeData.main} /> */}
-              {/* <Route path="/about" data={this.state.resumeData.main} /> */}
-
-              {/* <Contact data={this.state.resumeData.resume} /> */}
-              {/* <Route path="/contact" data={this.state.resumeData.resume}  /> */}
-
-              {/* <Portfolio data={this.state.resumeData.portfolio} />  */}
-              {/* <Route path="/portfolio" ata={this.state.resumeData.portfolio} /> */}
-          
-          {/* </BrowserRouter> */}
       </div>
     );
   }
