@@ -1,10 +1,12 @@
-import React, { Component } from "react";
-import Slide from "react-reveal";
+import React, { Component } from 'react';
+import Slide from 'react-reveal';
+import MyPDF from '../Components/resume.pdf';
+
 
 class Contact extends Component {
   getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
+    let letters = '0123456789ABCDEF';
+    let color = '#';
     for (let i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
     }
@@ -59,7 +61,6 @@ class Contact extends Component {
 
     return (
       <section id="resume">
-
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
@@ -68,31 +69,33 @@ class Contact extends Component {
               </h1>
             </div>
             <div className="columns download">
-            <h1> 
-            <a href="mailto:erumdhukka531@gmail.com">erumdhukka531@gmail.com</a>
-            </h1>
-            <h1>832-860-3130</h1>
-            
-                <Slide bottom duration={2000}>
-                <ul className="social">
-                
-                    <a href='./public/Resume_May2021_ErumDhukka  (2).pd' className="button">
-                    <i className="resume"></i>Download Resume
-                    </a>
-                  <br></br>
-                  
-                    <a href={github} className="button btn github-btn">
-                      <i className="fa fa-github"></i>Github
-                    </a>
-                    <br></br>
-                    <a href={linkedin} className="button btn linkedin-btn">
-                      <i className="fa fa-linkedin"></i>linkedin
-                    </a>
-               </ul>
-              </Slide>
-                </div>
+              <h1>
+                <a href="mailto:erumdhukka531@gmail.com">
+                  erumdhukka531@gmail.com
+                </a>
+              </h1>
+              <h1>832-860-3130</h1>
 
-           
+              <Slide bottom duration={2000}>
+                <ul className="social">
+                  <button>
+                    <a href={MyPDF} download="resume_File.pdf" target="_blank">
+                      Download Resume
+                    </a>
+                    <i className="fa fa-download" />
+                  </button>
+                  <br></br>
+
+                  <a href={github} className="button btn github-btn">
+                    <i className="fa fa-github"></i>Github
+                  </a>
+                  <br></br>
+                  <a href={linkedin} className="button btn linkedin-btn">
+                    <i className="fa fa-linkedin"></i>linkedin
+                  </a>
+                </ul>
+              </Slide>
+            </div>
           </div>
         </Slide>
       </section>
