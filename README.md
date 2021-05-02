@@ -6,3 +6,7 @@ This is my portfolio using react.
 
 3D Background 
 https://github.com/lindelof/particles-bg
+
+Boiler Plate
+https://github.com/nordicgiant2/react-nice-resume
+
