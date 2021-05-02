@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Erum Dhukka", 
-    "description":"I am a Full Stack Web Developer.",
+    "description":"Full Stack Web Developer",
     "image":"profilepic.jpg",
     "github":"https://github.com/erumd",
     "project":"https://github.com",
@@ -16,7 +16,7 @@
     
       {
         "name":"linkedin",
-        "url":"",
+        "url":"https://www.linkedin.com/in/erum-dhukka/",
         "className":"fa fa-linkedin"
       },
       
@@ -30,18 +30,7 @@
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
+     
     ],
     
     "skills":[
@@ -95,12 +84,7 @@
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
+     
       {
         "title":"Canadian Wanderlust",
         "category":"My Travel Blog for my post-university travels",

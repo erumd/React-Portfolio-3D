@@ -1,20 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 
+
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     // const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
-    // const bio = this.props.data.bio;
-    // const street = this.props.data.address.street;
-    // const city = this.props.data.address.city;
-    // const state = this.props.data.address.state;
-    // const zip = this.props.data.address.zip;
-    // const phone = this.props.data.phone;
-    // const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -50,14 +43,24 @@ Fun fact about me is that I have a little brother named Dukes. Before we got him
                     <span></span>
                   </p>
                 </div> */}
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                      <a href='public/Resume_May2021_ErumDhukka  (2).pdf' download>Click to download</a>
+                {/* <div className="columns download">
+                <Fade bottom duration={2000}>
+                <ul className="social">
+                
+                    <a href='./public/Resume_May2021_ErumDhukka  (2).pd' className="button">
+                    <i className="resume"></i>Download Resume
                     </a>
-                  </p>
-                </div>
+                  <br></br>
+                    <a href={github} className="button btn github-btn">
+                      <i className="fa fa-github"></i>Github
+                    </a>
+                    <br></br>
+                    <a href={linkedin} className="button btn linkedin-btn">
+                      <i className="fa fa-linkedin"></i>linkedin
+                    </a>
+               </ul>
+              </Fade>
+                </div> */}
               </div>
             </div>
           </div>
