@@ -8,6 +8,8 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 // import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 class App extends Component {
   constructor(props) {

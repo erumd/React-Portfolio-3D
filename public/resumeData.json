@@ -1,96 +1,93 @@
 {
   "main": {
-    "name":"Erum Dhukka", 
-    "description":"Full Stack Web Developer",
-    "image":"profilepic.jpg",
-    "github":"https://github.com/erumd",
-    "project":"https://github.com",
+    "name": "Erum Dhukka",
+    "description": "Full Stack Web Developer",
+    "image": "profilepic.jpg",
+    "github": "https://github.com/erumd",
+    "project": "https://github.com",
     "website": "",
-    
-    "social":[
+
+    "social": [
       {
-        "name":"facebook",
-        "url":"",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "",
+        "className": "fa fa-facebook"
       },
-    
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/erum-dhukka/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/erum-dhukka/",
+        "className": "fa fa-linkedin"
       },
-      
+
       {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-     
-    ],
-    
-    "skills":[
+  "resume": {
+    "skillmessage": "",
+    "education": [],
+
+    "skills": [
       {
-        "name":"Python",
-        "level":"60%"
+        "name": "Python",
+        "level": "60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name": "VueJs",
+        "level": "55%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "CSS",
+        "level": "90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "PHP",
+        "level": "80%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name": "Swift",
+        "level": "50%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "JAVA",
+        "level": "80%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Style With My Weather App",
+        "category": "",
+        "image": "weather.png",
+        "deployed_url": "https://q-jones92.github.io/Style-With-My-Weather-App/",
+        "github_url": "https://github.com/erumd/Style-With-My-Weather",
+        "target": "_blank"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "PedaGogue",
+        "category": "",
+        "image": "pedagogue.png",
+        "deployed_url": "https://pedagu-gu.herokuapp.com/login",
+        "github_url": "https://github.com/erumd/PedaGogue",
+        "target": "_blank"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-     
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Workday Scheduler",
+        "category": "",
+        "image": "Workday.jpg",
+        "deployed_url": "https://erumd.github.io/Work-Day-Scheduler/",
+        "github_url": "https://github.com/erumd/Work-Day-Scheduler",
+        "target": "_blank"
       }
+
     ]
   }
 }

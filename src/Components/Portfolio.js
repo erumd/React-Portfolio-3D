@@ -8,16 +8,22 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+             <h1>{projects.title}</h1>
+             <a href="{projects.github_url}" target="blank">GitHub Link</a>
+             <a href="{projects.deployed_url}" target="blank">Deployed Link</a>
+             
+
+
+            {/* <a href={projects.url} title={projects.title}> */}
                <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
+               {/* <div className="overlay"> */}
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
                      <p>{projects.category}</p>
                   </div>
-                </div>
+                {/* </div> */}
               <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
+            {/* </a> */}
           </div>
         </div>
       })
@@ -28,12 +34,13 @@ class Portfolio extends Component {
 
       <div className="row">
 
-         <div className="twelve columns collapsed">
+         <div className="nine columns collapsed">
 
-            <h1>Check Out Some of My Work.</h1>
+            <h2>Projects </h2>
+            <br></br>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+            <div id="portfolio-wrapper" className="bgrid cf">
+                {projects} 
             </div>
           </div>
       </div>
