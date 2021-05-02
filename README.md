@@ -21,6 +21,7 @@ https://erum-react-portfolio.herokuapp.com
 https://github.com/erumd/React-Portfolio-3D
 
 ![Screenshot](./public/images/deployedWebsite1.png)
+![Screenshot](./public/images/deployedWebsite2.png)
 
 ## Contributing
 
