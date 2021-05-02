@@ -18,6 +18,7 @@ class About extends Component {
                 className="profile-pic"
                 src={profilepic}
                 alt="Profile Pic"
+                
               />
             </div>
             <div className="nine columns main-col">
