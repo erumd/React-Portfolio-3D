@@ -8,25 +8,24 @@ class Portfolio extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <h1>{projects.title}</h1>
+              <h3>{projects.title}</h3>
+              <h4>
               <a href={projects.github_url} target="blank">
                 GitHub Link
               </a>
               <a href={projects.deployed_url} target="blank">
                 Deployed Link
               </a>
+              </h4>
 
               <img alt={projects.title} src={projectImage} />
-              {/* <div className="overlay"> */}
               <div className="portfolio-item-meta">
                 <h5>{projects.title}</h5>
                 <p>{projects.category}</p>
               </div>
-              {/* </div> */}
               <div className="link-icon">
                 <i className="fa fa-link"></i>
               </div>
-              {/* </a> */}
             </div>
           </div>
         );
@@ -38,7 +37,8 @@ class Portfolio extends Component {
         {/* <Link to="/portfolio">Contact</Link> */}
         <div className="row">
           <div className="nine columns collapsed">
-            <h2>Projects </h2>
+            <h2 style={{ color: 'orange' }}>Projects </h2>
+            <br></br>
             <br></br>
 
             <div id="portfolio-wrapper" className="bgrid cf">

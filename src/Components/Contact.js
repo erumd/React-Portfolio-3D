@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal';
 import MyPDF from './resume.pdf';
-import { Link } from 'react-router-dom';
 
 class Contact extends Component {
   getRandomColor() {
@@ -16,18 +15,15 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const github = this.props.data.github;
-    const linkedin = this.props.data.linkedin;
-
     return (
       <section id="resume">
         {/* <Link to="/resume">Contact</Link> */}
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
-              <h1>
-                <span>contact me</span>
-              </h1>
+              <h2 style={{ color: 'orange' }}>
+                Contact Me
+              </h2>
             </div>
             <div className="columns download">
               <h1>
