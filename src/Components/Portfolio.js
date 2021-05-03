@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
   render() {
@@ -17,7 +16,6 @@ class Portfolio extends Component {
                 Deployed Link
               </a>
 
-              {/* <a href={projects.url} title={projects.title}> */}
               <img alt={projects.title} src={projectImage} />
               {/* <div className="overlay"> */}
               <div className="portfolio-item-meta">
