@@ -6,11 +6,8 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-
     const name = this.props.data.name;
     const description = this.props.data.description;
-
-    
 
     return (
       <header id="home">
@@ -25,33 +22,21 @@ class Header extends Component {
           </a>
 
           <ul id="nav" className="nav">
-            {/* <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li> */}
-
             <li>
-              <a className="smoothscroll" href="#about" >
+              <a className="smoothscroll" href="#about">
                 About
               </a>
             </li>
-
             <li>
-              
-              {/* <a href= "./Contact" target="_blank"> CONTACT</a> */}
               <a className="smoothscroll" href="#resume" target="_blank">
-                Contact 
+                Contact
               </a>
             </li>
-           
-            
             <li>
               <a className="smoothscroll" href="#portfolio">
                 Projects
               </a>
             </li>
-
           </ul>
         </nav>
 
@@ -64,20 +49,6 @@ class Header extends Component {
               <h3>{description}</h3>
             </Fade>
             <hr />
-            {/* <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
-
-                <a href={github} className="button btn linkedin-btn">
-                  <i className="fa fa-linkedin"></i>linkedin
-                </a>
-              </ul>
-            </Fade> */}
           </div>
         </div>
 
