@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal';
 import MyPDF from './resume.pdf';
-
 import { Link } from 'react-router-dom';
 
 class Contact extends Component {
@@ -41,20 +40,25 @@ class Contact extends Component {
               <Slide bottom duration={2000}>
                 <ul className="social">
                   <button>
-                    <a
-                      target="_blank"
-                      href={MyPDF}
-                      download="resume_File.pdf"
-                    ></a>
-                    <i className="fa fa-download" /> Download Resume
+                    <a target="_blank" href={MyPDF} download="resume_File.pdf">
+                      <i className="fa fa-download" /> Download Resume
+                    </a>
                   </button>
                   <br></br>
 
-                  <a href={github} className="button btn github-btn">
+                  <a
+                    href="https://github.com/erumd"
+                    target="_blank"
+                    className="button btn github-btn"
+                  >
                     <i className="fa fa-github"></i>Github
                   </a>
                   <br></br>
-                  <a href={linkedin} className="button btn linkedin-btn">
+                  <a
+                    href="https://www.linkedin.com/in/erum-dhukka/"
+                    target="_blank"
+                    className="button btn linkedin-btn"
+                  >
                     <i className="fa fa-linkedin"></i>linkedin
                   </a>
                 </ul>
