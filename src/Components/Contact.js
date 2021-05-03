@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal';
 import MyPDF from '../Components/resume.pdf';
+import { Link } from 'react-router-dom';
+
 
 
 class Contact extends Component {
@@ -21,6 +23,7 @@ class Contact extends Component {
 
     return (
       <section id="resume">
+        <Link to="/resume">Contact</Link>
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">

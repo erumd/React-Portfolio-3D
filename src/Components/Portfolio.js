@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
   render() {
@@ -36,6 +37,7 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
+        <Link to="/portfolio">Contact</Link>
         <div className="row">
           <div className="nine columns collapsed">
             <h2>Projects </h2>

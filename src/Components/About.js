@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import { Link } from 'react-router-dom';
 
 
 class About extends Component {
@@ -11,6 +12,7 @@ class About extends Component {
 
     return (
       <section id="about">
+        <Link to="/About">About</Link>
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
