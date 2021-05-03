@@ -12,7 +12,7 @@ class About extends Component {
 
     return (
       <section id="about">
-        <Link to="/About">About</Link>
+        {/* <Link to="/About">About</Link> */}
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
@@ -31,8 +31,8 @@ class About extends Component {
               I am a Life-long learner, effective at combining creativity and problem solving skills to develop user-friendly applications.
                Strengths in teamwork and building projects from ideation to execution.
                <br></br>
-My passion for coding began a few months after COVID hit in March 2020. During lockdown I realized how small our world had become. As a teacher (with a background in education) I impact the lives of the students in my class. By learning coding I felt I could make applications that could impact the lives of many more.
-Fun fact about me is that I have a little brother named Dukes. Before we got him I was scared of dogs. Having him in my life has taught me that fear is something that can be overcome with time and persistency.
+              My passion for coding began a few months after COVID hit in March 2020. During lockdown I realized how small our world had become. As a teacher (with a background in education) I impact the lives of the students in my class. By learning coding I felt I could make applications that could impact the lives of many more.
+              Fun fact about me is that I have a little brother named Dukes. Before we got him I was scared of dogs. Having him in my life has taught me that fear is something that can be overcome with time and persistency.
               </p>
               <div className="row">
                 {/* <div className="columns contact-details">

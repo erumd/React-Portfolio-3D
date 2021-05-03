@@ -46,14 +46,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className='row'>
-          <Router>
+          {/* <Router>
             <Switch>
               <Route path='/about' component={About} />
               <Route path='/resume' component={Contact} />
               <Route path='/portfolio' component={Portfolio} />
 
             </Switch>
-          </Router>
+          </Router> */}
         </div>
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />

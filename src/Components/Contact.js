@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal';
-import MyPDF from '../Components/resume.pdf';
+import MyPDF from './resume.pdf';
+
 import { Link } from 'react-router-dom';
-
-
 
 class Contact extends Component {
   getRandomColor() {
@@ -23,7 +22,7 @@ class Contact extends Component {
 
     return (
       <section id="resume">
-        <Link to="/resume">Contact</Link>
+        {/* <Link to="/resume">Contact</Link> */}
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
@@ -42,10 +41,13 @@ class Contact extends Component {
               <Slide bottom duration={2000}>
                 <ul className="social">
                   <button>
-                    <a target="_blank" href={MyPDF} download="resume_File.pdf" >
-                    </a>
-                    <i className="fa fa-download" />  Download Resume
-                  </ button>
+                    <a
+                      target="_blank"
+                      href={MyPDF}
+                      download="resume_File.pdf"
+                    ></a>
+                    <i className="fa fa-download" /> Download Resume
+                  </button>
                   <br></br>
 
                   <a href={github} className="button btn github-btn">

@@ -32,7 +32,7 @@ class Header extends Component {
             </li> */}
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className="smoothscroll" href="#about" >
                 About
               </a>
             </li>
@@ -49,7 +49,6 @@ class Header extends Component {
             <li>
               <a className="smoothscroll" href="#portfolio">
                 Projects
-                {/* <Link to="route" target="_blank" rel="noopener noreferrer" /> */}
               </a>
             </li>
 
