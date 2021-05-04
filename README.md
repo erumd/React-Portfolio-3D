@@ -9,6 +9,7 @@ This is my portfolio built using react and a boiler plate template. It has about
 ## Table of Contents
 
 - [Deployment](#deployment)
+- [Installation](#installation)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [Resources](#resources)
@@ -25,7 +26,12 @@ https://github.com/erumd/React-Portfolio-3D
 ![Screenshot](./public/images/deployedWebsite3.png)
 ![Screenshot](./public/images/deployedWebsite4.png)
 
+## Installation
 
+1. Clone the repo
+2. cd into the directory
+3. In terminal: "npm install"
+4. In terminal: "npm start"
 
 ## Contributing
 

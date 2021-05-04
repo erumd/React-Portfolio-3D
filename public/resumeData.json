@@ -27,17 +27,7 @@
     ]
   },
   "resume": {
-   
-
     "skills": [
-      {
-        "name": "Python",
-        "level": "60%"
-      },
-      {
-        "name": "VueJs",
-        "level": "55%"
-      },
       {
         "name": "ReactJs",
         "level": "50%"
@@ -45,18 +35,6 @@
       {
         "name": "CSS",
         "level": "90%"
-      },
-      {
-        "name": "PHP",
-        "level": "80%"
-      },
-      {
-        "name": "Swift",
-        "level": "50%"
-      },
-      {
-        "name": "JAVA",
-        "level": "80%"
       }
     ]
   },
@@ -85,8 +63,31 @@
         "deployed_url": "https://erumd.github.io/Work-Day-Scheduler/",
         "github_url": "https://github.com/erumd/Work-Day-Scheduler",
         "target": "_blank"
+      },
+      {
+        "title": "Workout Tracker",
+        "category": "",
+        "image": "workout.png",
+        "deployed_url": "https://erum-workout-tracker.herokuapp.com/",
+        "github_url": "https://github.com/erumd/Workout-Tracker",
+        "target": "_blank"
+      },
+      {
+        "title": "Employee Directory",
+        "category": "",
+        "image": "directory.png",
+        "deployed_url": "https://erumd.github.io/Employee-Directory/",
+        "github_url": "https://github.com/erumd/Employee-Directory",
+        "target": "_blank"
+      },
+      {
+        "title": "Blog Page",
+        "category": "",
+        "image": "blog.png",
+        "deployed_url": "https://murmuring-savannah-04457.herokuapp.com/",
+        "github_url": "https://github.com/erumd/Tech-Blog",
+        "target": "_blank"
       }
-
     ]
   }
 }
