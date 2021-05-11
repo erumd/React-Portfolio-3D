@@ -87,6 +87,14 @@
         "deployed_url": "https://murmuring-savannah-04457.herokuapp.com/",
         "github_url": "https://github.com/erumd/Tech-Blog",
         "target": "_blank"
+      },
+      {
+        "title": "Book Search",
+        "category": "",
+        "image": "booksearch.png",
+        "deployed_url": "https://erumbooksearch.herokuapp.com/",
+        "github_url": "https://github.com/erumd/Book-Search",
+        "target": "_blank"
       }
     ]
   }
