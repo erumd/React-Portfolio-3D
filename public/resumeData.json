@@ -57,6 +57,22 @@
         "target": "_blank"
       },
       {
+        "title": "Stay RnB Web (Use Deployed Link to scan QR code to view mobile app)",
+        "category": "",
+        "image": "Stayrnb.png",
+        "deployed_url": "https://firebasestorage.googleapis.com/v0/b/stay-rnb-456de.appspot.com/o/ExpoGo.png?alt=media&token=3c686228-d8ec-455d-a14a-07ce5d0935f5",
+        "github_url": "https://github.com/code-monkey713/Stay-RnB-Web",
+        "target": "_blank"
+      },
+      {
+        "title": "Stay RnB Mobile",
+        "category": "",
+        "image": "mobile.png",
+        "deployed_url": "",
+        "github_url": "https://github.com/erumd/Stay-RnB-Mobile",
+        "target": "_blank"
+      },
+      {
         "title": "Workday Scheduler",
         "category": "",
         "image": "Workday.jpg",
